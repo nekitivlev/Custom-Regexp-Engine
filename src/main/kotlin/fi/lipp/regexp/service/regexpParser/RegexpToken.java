@@ -1,0 +1,8 @@
+package fi.lipp.regexp.service.regexpParser;
+
+public enum RegexpToken {
+  CHARACTER, L_PARENTHESIS, R_PARENTHESIS, L_BRACKET, QUANTIFIER, ESCAPE,
+
+  REGEX, SELECTOR, RANGE, QUANTIFIED_EXPR, GROUP, EXPRESSION, CHAR_RANGE, REGEXP,
+  ROOT,
+}
